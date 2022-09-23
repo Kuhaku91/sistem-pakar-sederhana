@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="32dp"
+            app:srcCompat="@mipmap/img_pernapasan" />
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Batuk" />
+
+        <CheckBox
+            android:id="@+id/checkBox2"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Batuk Lebih dari 3 minggu" />
+
+        <CheckBox
+            android:id="@+id/checkBox3"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="batuk berdahak mukoid" />
+
+        <CheckBox
+            android:id="@+id/checkBox4"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Batuk berdahak purulen" />
+
+        <CheckBox
+            android:id="@+id/checkBox5"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Batuk darah" />
+
+        <CheckBox
+            android:id="@+id/checkBox6"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Sesak nafas" />
+
+        <CheckBox
+            android:id="@+id/checkBox7"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Sesak nafas ketika mengerahkan tenaga" />
+
+        <CheckBox
+            android:id="@+id/checkBox8"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Batuk muncul bersamaan sesak nafas" />
+
+        <CheckBox
+            android:id="@+id/checkBox9"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Demam" />
+
+        <CheckBox
+            android:id="@+id/checkBox10"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Menggigil" />
+
+        <CheckBox
+            android:id="@+id/checkBox11"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Keringat malam" />
+
+        <CheckBox
+            android:id="@+id/checkBox12"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Malaise" />
+
+        <CheckBox
+            android:id="@+id/checkBox13"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Nafsu makan berkurang" />
+
+        <CheckBox
+            android:id="@+id/checkBox14"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Berat badan menurun" />
+
+        <CheckBox
+            android:id="@+id/checkBox15"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Mengi" />
+
+        <CheckBox
+            android:id="@+id/checkBox16"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Dada terasa penuh" />
+
+        <CheckBox
+            android:id="@+id/checkBox17"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Keluhan menjelang pagi atau malam" />
+
+        <CheckBox
+            android:id="@+id/checkBox18"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Asma nokturnal" />
+
+        <CheckBox
+            android:id="@+id/checkBox19"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Batuk memberat pada malam hari" />
+
+        <CheckBox
+            android:id="@+id/checkBox20"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Ada riwayat keluarga asma" />
+
+        <CheckBox
+            android:id="@+id/checkBox21"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Cepat lelah" />
+
+        <CheckBox
+            android:id="@+id/checkBox22"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Radang paru berulang" />
+
+        <CheckBox
+            android:id="@+id/checkBox23"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Suara parau" />
+
+        <CheckBox
+            android:id="@+id/checkBox24"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Rasa nyeri didada" />
+
+        <CheckBox
+            android:id="@+id/checkBox25"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Rasa nyeri di bahu atau punggung" />
+
+        <CheckBox
+            android:id="@+id/checkBox26"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Pembengkakan dileher" />
+
+        <CheckBox
+            android:id="@+id/checkBox27"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:onClick="onCheckboxClicked123"
+            android:text="Pembengkakan diwajah" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PROSES DETEKSI PENYAKIT"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="NAMA PENYAKIT"
+            android:textAlignment="center"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</ScrollView>
